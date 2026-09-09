@@ -4,7 +4,7 @@ class student{
     double height;
     
 
-    void input(String name , int age , double height){
+    student(String name , int age , double height){
          this.name=name;
          this.age=age;
          this.height=height;
@@ -18,8 +18,8 @@ class student{
 
 public class shadowing{
     public static void main(String[] args) {
-        student s1 = new student();
-        s1.input("darshan",20,6.0);
+        student s1 = new student("darshan",20,6.0);
+       
         s1.display();
     }
 }
