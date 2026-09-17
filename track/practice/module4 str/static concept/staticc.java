@@ -4,9 +4,9 @@
     }
     void calculatemileage(){
         System.out.println("calculating mileage");
-    }
-}
-    public class staticc{
+    }}
+    
+class staticc{
     public static void main(String[] args){
         car.convertkmintomiles();
         car c = new car();
