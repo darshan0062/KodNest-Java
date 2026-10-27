@@ -23,9 +23,9 @@ public class hasAcomposite {
 
     public static void main(String[] args) {
         mobile m = new mobile();
-        // m.o.checkos();
-
-        m = null;
         m.o.checkos();
+
+        // m = null;        //object destroyed 
+        // m.o.checkos();    //so os is composite class if mobile is null os class is also null
     }
 }
